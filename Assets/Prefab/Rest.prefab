@@ -21,7 +21,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 379551537068961741, guid: ebc3325d457a48d4f8de86bf962362c5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.843834
+      value: 32.65
       objectReference: {fileID: 0}
     - target: {fileID: 379551537068961741, guid: ebc3325d457a48d4f8de86bf962362c5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -29,7 +29,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 379551537068961741, guid: ebc3325d457a48d4f8de86bf962362c5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6121807
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: 379551537068961741, guid: ebc3325d457a48d4f8de86bf962362c5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -65,6 +65,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 05f1796b356818943a9d0bc59b19aec2, type: 2}
     - target: {fileID: 8942320933168211856, guid: ebc3325d457a48d4f8de86bf962362c5, type: 3}
       propertyPath: m_Name
+      value: Rest
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942320933168211856, guid: ebc3325d457a48d4f8de86bf962362c5, type: 3}
+      propertyPath: m_TagString
       value: Rest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
