@@ -7,6 +7,9 @@ TagManager:
   - Rest
   - Food
   - Shop
+  - PIP
+  - Exit
+  - Wall
   layers:
   - Default
   - TransparentFX

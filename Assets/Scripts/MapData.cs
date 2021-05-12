@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum LocationType { kRest, kFood, kShop}
 
 public class MapData : MonoBehaviour, INotify
 {
@@ -15,11 +14,11 @@ public class MapData : MonoBehaviour, INotify
     const string kRest = "Rest";
     const string kFood = "Food";
     const string kShop = "Shop";
-    private Dictionary<LocationType, string> locationToTag = new Dictionary<LocationType, string>
+    private Dictionary<Want.WantType, string> locationToTag = new Dictionary<Want.WantType, string>
     {
-        { LocationType.kFood, "Food" },
-        { LocationType.kRest, "Rest" },
-        { LocationType.kShop, "Shop" }
+        { Want.WantType.k_food, "Food" },
+        { Want.WantType.k_energy, "Rest" },
+        { Want.WantType.k_desire, "Shop" }
     };
 
     public static MapData GetMap() 
@@ -96,14 +95,14 @@ public class MapData : MonoBehaviour, INotify
             m_foods.Remove(obj);
     }
 
-    public List<GameObject> GetLocations(LocationType type)
+    public List<GameObject> GetLocations(Want.WantType type)
     {
         switch (type)
         {
-            case LocationType.kFood:        return m_foods;
-            case LocationType.kRest:        return m_rests;
-            case LocationType.kShop:        return m_shops;
-            default:                        return null;
+            case Want.WantType.k_food:        return m_foods;
+            case Want.WantType.k_energy:      return m_rests;
+            case Want.WantType.k_desire:      return m_shops;
+            default:                          return null;
         }        
     }
 

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f42fed21d53c6448791de9d16f20be, type: 3}
+  m_Name: Albert
+  m_EditorClassIdentifier: 
+  m_name: Albert
+  m_food:
+    weight: 0.01
+    m_fullSatisfied: 100
+    m_cycleLength: 5
+    m_dropPerCycle: 2
+  m_population:
+    weight: 0.02
+    m_fullSatisfied: 100
+    m_cycleLength: 10
+    m_dropPerCycle: 0
+  m_energy:
+    weight: 0.03
+    m_fullSatisfied: 100
+    m_cycleLength: 3
+    m_dropPerCycle: 5
+  m_desire:
+    weight: 0.03
+    m_fullSatisfied: 100
+    m_cycleLength: 10
+    m_dropPerCycle: 1
+  m_orderOfDesires: 0400000007000000020000000500000001000000000000000600000003000000
